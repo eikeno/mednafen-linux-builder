@@ -15,7 +15,7 @@ At the end of the process, the built package files can be found under __./mednaf
 
 Where __\<VERSION\>__ depends on the current version of Mednafen.
 
-You are encouraged to edit __Makefile__ as you need for example:
+You are encouraged to edit __Makefile__ and __build_script.sh__ as you need for example:
 
 - to replace docker invocation by __Podman__ or something else
 - to replace __ubuntu:latest__ by whatever you prefer (adjust dependencies installation lines accordingly in that case)
